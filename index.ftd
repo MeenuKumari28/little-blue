@@ -356,6 +356,7 @@ optional ftd.image-src image:
 optional string url:
 optional string body:
 optional string cta-text: Know More
+optional string cta-link:
 boolean $mouse-in: false
 boolean $hover: false
 
@@ -405,6 +406,7 @@ color if { post-card-ui-desktop.hover }: $inherited.colors.info.text
 $on-mouse-enter$: $ftd.set-bool($a = $post-card-ui-desktop.hover, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $post-card-ui-desktop.hover, v = false)
 cursor: pointer
+link: blog-articles/sample-post-1/
 
 -- end: ftd.column
 
@@ -427,6 +429,7 @@ optional ftd.image-src image:
 optional string url:
 optional string body:
 optional string cta-text: Know More
+optional string cta-link:
 
 -- ftd.column:
 background.solid: $inherited.colors.background.step-2
@@ -466,6 +469,7 @@ if: { post-card-ui-mobile.cta-text != NULL }
 color: $inherited.colors.text-strong
 role: $inherited.types.copy-large
 style: underline
+link: blog-articles/sample-post-1/
 
 -- end: ftd.column
 

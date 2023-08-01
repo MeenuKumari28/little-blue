@@ -9,19 +9,19 @@ post-url: blog-articles/sample-post-1/
 Eos libero natus est minima laudantium dolor est minima sit amet.
 
 -- common.post-meta meta1: Lorem ipsum dolor sit amet sit
-post-url: /blog-articles/sample-post-1/
+post-url: blog-articles/sample-post-1/
 post-image: $assets.files.assets.card.jpg
 
 In laborum animi eum repellat ullam non temporibus delectus.Eos libero
 
 -- common.post-meta meta2: Lrepellendus dicta sit amet sit
-post-url: /blog-articles/sample-post-1/
+post-url: blog-articles/sample-post-1/
 post-image: $assets.files.assets.card2.jpg
 
 Lorem ipsum dolor repellendus dicta vel voluptas omnis ut alias galisum!
 
 -- common.post-meta meta3: Lrepellendus dicta sit amet sit
-post-url: /blog-articles/sample-post-1/
+post-url: blog-articles/sample-post-1/
 post-image: $assets.files.assets.card2.jpg
 
 Lorem ipsum dolor repellendus dicta vel voluptas omnis ut alias galisum!

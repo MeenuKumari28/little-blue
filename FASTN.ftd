@@ -4,16 +4,19 @@
 favicon: /-/meenukumari28.github.io/little-blue/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/midnight-storm as ds
+-- fastn.dependency: meenukumari28.github.io/little-blue-cs as cs
 
--- fastn.auto-import: meenukumari28.github.io/little-blue/FASTN/ds
+-- fastn.auto-import: ds
+-- fastn.auto-import: cs
+-- fastn.auto-import: meenukumari28.github.io/little-blue/FASTN/my-ds
 -- fastn.auto-import: meenukumari28.github.io/little-blue/assets
--- fastn.auto-import: doc-site
 
 
 -- fastn.sitemap:
 
-# Home: /
+# Blog: /
 
-- Right Sidebar Sample: /sidebar/
+## Sample Post: /blog-articles/sample-post-1/
+
+# About: /

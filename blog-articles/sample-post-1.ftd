@@ -1,0 +1,126 @@
+-- import: meenukumari28.github.io/little-blue/common
+-- import: meenukumari28.github.io/little-blue as blog
+-- import: meenukumari28.github.io/little-blue/blog-authors/patrica as author
+
+-- common.post-meta meta: Blogs
+post-image: $assets.files.assets.bgg.jpg
+post-url: blog-articles/sample-post-1/
+
+Eos libero natus est minima laudantium dolor est minima sit amet.
+
+-- common.post-meta meta1: Lorem ipsum dolor sit amet sit
+post-url: /blog-articles/sample-post-1/
+post-image: $assets.files.assets.card.jpg
+
+In laborum animi eum repellat ullam non temporibus delectus.Eos libero
+
+-- common.post-meta meta2: Lrepellendus dicta sit amet sit
+post-url: /blog-articles/sample-post-1/
+post-image: $assets.files.assets.card2.jpg
+
+Lorem ipsum dolor repellendus dicta vel voluptas omnis ut alias galisum!
+
+-- common.post-meta meta3: Lrepellendus dicta sit amet sit
+post-url: /blog-articles/sample-post-1/
+post-image: $assets.files.assets.card2.jpg
+
+Lorem ipsum dolor repellendus dicta vel voluptas omnis ut alias galisum!
+
+-- common.post-meta meta4: IN LABOURM ANIMI EUM REPELLAT ULLAM NON
+published-on: 03.24.15
+author: $author.patrica
+
+Uullam non temporibus delectus.Eos libero natus est
+minima laudantium
+
+
+
+
+-- my-ds.page:
+sidebar: false
+full-width: true
+
+-- blog.post:
+meta: $meta4
+
+-- ds.image:
+src: $assets.files.assets.card3.jpg
+
+-- ds.markdown:
+
+Lorem ipsum dolor sit amet. Est voluptatem esse ea repellat facere ut itaque
+labore ex quaerat error et distinctio reiciendis? Quo praesentium sapiente vel
+soluta assumenda et omnis doloremque est beatae voluptatem! 
+
+- Working remotely as a digital nomad in Honduras
+
+- Working remotely as a digital nomad in Honduras
+
+- Working remotely as a digital nomad in Honduras
+
+Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias galisum! In
+laborum animi eum repellat ullam non temporibus delectus.Eos libero natus est
+minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium 
+
+
+-- ds.h3: 1.Magnam sed earum voluptatum quo mollitia voluptatem quo provident. 
+
+Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias
+galisum! In laborum animi eum repellat ullam non temporibus delectus.Eos libero
+natus est minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+-- ds.image:
+src: $assets.files.assets.card3.jpg
+
+-- ds.h3: 2.In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+`Activities in Roatan`
+
+Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias galisum! In
+laborum animi eum repellat ullam non temporibus delectus.Eos libero natus est
+minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid. Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias
+galisum! 
+
+-- ds.image:
+src: $assets.files.assets.card3.jpg
+
+-- ds.h3: 3.In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+In laborum animi eum repellat ullam non temporibus delectus.Eos libero
+natus est minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid.
+
+-- end: blog.post
+
+-- blog.posts: More Blogs
+
+-- blog.post-card:
+post-data: $meta1
+
+-- blog.post-card:
+post-data: $meta2
+
+-- blog.post-card:
+post-data: $meta3
+
+-- end: blog.posts
+
+-- end: my-ds.page
